@@ -1,0 +1,80 @@
+body {
+	background-image: url("../images/background.jpg");
+	background-size: cover;
+}
+
+#container {
+	max-width: 600px;
+	height:600px;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #FFF;
+	border-radius: 10%;
+	position: relative;
+}	
+
+h1 {
+	text-align: center;
+	color: #EEE;
+	font-size: 40px;
+}
+
+label {
+	display: block;
+	margin-left: 50px;
+	margin-top: 35px;
+}
+
+label > :first-child {
+	color: #FFF;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+label input{
+	text-align: center;
+	position: absolute;
+	right: 18%;
+	height: 20px;
+}
+
+textarea {
+	resize: none;
+	width: 60%;
+	height: 100px;
+	display: block;
+	margin: 0 auto;
+}
+
+input[type="submit"] {
+	display: block;
+	margin: 50px auto;
+	font-size: 25px;
+	padding: 10px 25px;
+	border-radius: 50px;
+	border-style: double;
+	border: 3px solid #888;
+	text-shadow:1px 1px 2px #000;
+	cursor: pointer;
+	background: #000;
+	color:#FFF;
+}
+
+i {
+	color: #FF0000;
+}
+
+	/*on focus*/
+
+label input:focus {
+	height:30px;
+	transition:0.5s;
+	border:2px solid #12348F;
+	width: 200px;
+	right: 32%;
+}
+
+textarea:focus {
+	transition: 0.5s;
+	border: 2px solid #12348F;
+}
